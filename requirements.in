@@ -1,0 +1,12 @@
+# requirements.in
+# This file lists the direct dependencies for the AI Invoice Processor.
+# Use `pip-compile` to generate the full requirements.txt file.
+
+streamlit
+openai
+pandas
+gspread
+google-cloud-documentai
+PyMuPDF
+python-dotenv
+thefuzz
