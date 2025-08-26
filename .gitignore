@@ -1,0 +1,16 @@
+# Ignore the file containing our secret environment variables
+.env
+
+# Ignore PyCharm's project-specific files
+.idea/
+
+# Ignore Python's cache files
+__pycache__/
+
+# --- CRITICAL FOR SECURITY ---
+# Ignore the Google Cloud credentials file
+credentials.json
+
+# --- CRITICAL FOR PRIVACY ---
+# Ignore the user-specific configuration file
+config.py
